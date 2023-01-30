@@ -1,0 +1,35 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header, section, footer{
+    padding: 20px;
+}
+
+header{
+    width: vw;
+    height: 200px;
+    background-color: rgb(155, 163, 200);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header span{
+    width: auto;
+}
+
+section{
+    width: vw;
+    background-color: rgb(158, 184, 163);
+    flex: 1;
+}
+
+footer{
+    width: vw;
+    height: 200px;
+    background-color: rgb(183, 165, 190);
+}
