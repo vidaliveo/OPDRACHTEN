@@ -1,5 +1,5 @@
-let output = prompt();
-output += prompt();
+let output = prompt() + "<br>";
+output += prompt() + "<br>";
 output += prompt();
 
 let x = 3;
