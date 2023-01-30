@@ -7,4 +7,4 @@ let quant = 5;
 
 const totalPrice = (purPrice + profit) * vat * quant;
 
-alert(totalPrice);
+alert(`€ ${totalPrice}`);
