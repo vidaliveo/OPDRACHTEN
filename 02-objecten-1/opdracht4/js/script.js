@@ -12,11 +12,11 @@ document.querySelector("header").innerHTML =
 "© CodeCrashers - " + today.getFullYear();
 document.querySelector("section").innerHTML =
 	"<p>It's " +
-	today.getHours() +
+	(today.getHours()<10?'0':'') + today.getHours() +
 	":" +
-	today.getMinutes() +
+	(today.getMinutes()<10?'0':'') + today.getMinutes() +
 	":" +
-	today.getSeconds() +
+	(today.getSeconds()<10?'0':'') + today.getSeconds()+
 	"</p>";
 document.querySelector("footer").innerHTML =
 	"© CodeCrashers - " + today.getFullYear();
