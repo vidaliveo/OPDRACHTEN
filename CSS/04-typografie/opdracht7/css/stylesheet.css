@@ -1,0 +1,19 @@
+body{
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+ruby{
+    margin: 10px;
+    text-shadow: 2px 2px 3px green;
+}
+
+rt{
+    text-shadow: none;
+}
+
+section:last-of-type{
+    ruby-position: under;
+}

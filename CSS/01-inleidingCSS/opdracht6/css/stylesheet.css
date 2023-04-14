@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+button{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+progress:hover {
+    cursor: wait;
+}
+
+a:hover{
+    cursor: not-allowed;
+}
