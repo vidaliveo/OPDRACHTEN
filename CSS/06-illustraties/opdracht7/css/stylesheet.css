@@ -3,3 +3,15 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+#img1 {
+    image-rendering: crisp-edges;
+}
+
+#img2 {
+    image-rendering: pixelated;
+}
+
+#img3 {
+    image-rendering: pixelated;
+}
