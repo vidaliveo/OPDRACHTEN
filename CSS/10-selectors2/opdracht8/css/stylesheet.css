@@ -36,7 +36,7 @@ figure:not(:has(> figcaption))>img {
     border-bottom: 26px solid black;
 }
 
-figure:has(+ figure):not(:has(+ figure>figcaption))>figcaption::first-letter{
+figure:has(+ figure):not(:has(+ figure > figcaption))>figcaption::first-letter{
     color: orange;
     font-weight: bold;
 }
