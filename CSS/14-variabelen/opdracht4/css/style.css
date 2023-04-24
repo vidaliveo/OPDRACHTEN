@@ -1,0 +1,48 @@
+html, body {
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 18px;
+	background-color: #d7be86;
+	counter-reset: caption;
+}
+
+#container {
+	width: 75vw;
+	background-color: #f0e6be;
+	margin: 0 auto;
+}
+
+#gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#gallery figure {
+	text-align: center;
+}
+
+#gallery img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+#graph figure {
+	text-align: center;
+}
+
+#graph img {
+	max-width: 100%;
+	height: auto;
+}
+
+figcaption::before{
+	counter-increment: caption;
+	content: counter(caption) ". ";
+}
+
+@media only screen and (max-width: 1200px) {
+	#container {
+		width: 100vw;
+	}
+}
