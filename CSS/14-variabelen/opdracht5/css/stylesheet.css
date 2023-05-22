@@ -1,10 +1,12 @@
 :root {
 	--scarlet: rgb(158, 42, 34);
 	--violet: rgb(85, 34, 119);
+	--clampA: clamp(0.8rem, 2.5vw, 2rem);
+	--clampBorder: clamp(5px, 2.5vw, 10px);
 }
 
 html, body {
-	font-size: 20px;
+	font-size: clamp(0.8rem, 2.5vw, 1.2rem);
 	color: rgb(62, 59, 58);
 	font-family: 'Nunito Sans', sans-serif;
 	background-color: rgb(62, 59, 58);
@@ -16,8 +18,8 @@ html, body {
 #container {
 	max-width: 1440px;
 	margin: 0 auto;
-	border-left: 10px solid var(--scarlet);
-	border-right: 10px solid var(--violet);
+	border-left: var(--clampBorder) solid var(--scarlet);
+	border-right: var(--clampBorder) solid var(--violet);
 }
 
 header > img {
@@ -27,8 +29,8 @@ header > img {
 main {
 	display: flex;
 	flex-direction: row;
-	gap: 3rem;
-	padding: 3rem;
+	gap: var(--clampA);
+	padding: var(--clampA);
 	background-color: rgb(255, 255, 255);
 	background-image: url('../img/pattern-white.jpg');
 }
