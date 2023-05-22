@@ -1,5 +1,5 @@
 <?php
-	function getInfo(){
+	function getInfo(): array {
 		$gameInfo = array(
 			'Mass Effect Andromeda', 
 			'In Mass Effect Andromeda verken je het Andromeda stelsel, ongeveer 600 jaar na de eerste Mass Effect trilogie.', 
